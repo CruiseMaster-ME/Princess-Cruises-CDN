@@ -1,0 +1,41 @@
+@use "../../Config/variables.scss" as vars;
+.destinations {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  .overlay-container-destinations {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    margin: 0 10px;
+  }
+  .image-slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  .overlay-content-destinations {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left, rgba(1, 34, 62, 0.556) 0%, transparent 50%, rgba(1, 34, 62, 0.556) 100%);
+    box-shadow: 2px 2px 8px 0.5px rgba(0, 0, 0, 0.308);
+    .destinations-custom-divider {
+      background-color: rgba(251, 251, 251, 0.682);
+      height: 10px;
+      width: 65%;
+      margin-left: 2px;
+      transition: width 0.3s ease;
+    }
+  }
+  .overlay-content-destinations:hover {
+    .destinations-custom-divider {
+      width: 103%;
+    }
+  }
+}

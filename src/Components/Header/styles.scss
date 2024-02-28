@@ -1,0 +1,124 @@
+@use "../../Config/variables.scss" as vars;
+
+.common-header {
+  height: 50px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  color: vars.$white;
+  width: 100%;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+  padding: 10px 22px;
+  .header-brand img {
+    height: 24px;
+  }
+  .custom-link {
+    margin: 0px 10px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .contact-text {
+    margin: 0px 10px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+    height: 20px;
+    font-size: 15px;
+  }
+  .header-contact-row {
+    height: 8vh;
+  }
+  .header-nav-row {
+    height: 6vh;
+  }
+
+  .custom-link::after {
+    content: "";
+    position: absolute;
+    background-color: vars.$white;
+    bottom: -10px;
+    left: 50%;
+    width: 0px;
+    height: 3px;
+    transition: width 0.3s;
+    transform: translateX(-50%);
+  }
+  .custom-link:hover::after {
+    width: 100%;
+  }
+
+  .custom-link-2 {
+    margin: 0px 10px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .custom-link-2::after {
+    content: "";
+    position: absolute;
+    background-color: vars.$primary;
+    bottom: -10px;
+    left: 50%;
+    width: 0px;
+    height: 3px;
+    transition: width 0.3s;
+    transform: translateX(-50%);
+  }
+  .custom-link-2:hover::after {
+    width: 100%;
+  }
+
+  .custom-link:hover {
+    color: vars.$white;
+  }
+  .custom-link-2:hover {
+    color: vars.$black;
+  }
+
+  .menu-toggle {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .bar {
+    font-size: 32px;
+  }
+
+  .close .bar:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+
+  .close .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .close .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+.common-header-elevated {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.colored-border{
+  border-bottom: 4px solid #0da2d4;
+}
+//media-query
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .contact-details {
+    display: none !important;
+  }
+  .common-header {
+    height: 7vh;
+    .header-brand img {
+      height: 25px;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+@use "../../Config/variables.scss" as vars;
+.destinations-component {
+  .destination-image-parent {
+    display: flex;
+    height: 600px;
+    justify-content: flex-end;
+  }
+
+  .destination-image-parent div {
+    flex: 1;
+    max-width: 30%;
+    transition: flex 1s, max-width 1s, background-position 1s;
+    background-size: cover;
+    background-position: center !important;
+    color: #ffffffd2;
+    font-size: 36px;
+
+    .ArrowIcon {
+      display: block;
+      transition: display 1s ease-out;
+    }
+
+    .destinationName {
+      opacity: 0;
+      height: 0;
+      overflow: hidden;
+      white-space: nowrap; 
+      text-overflow: ellipsis; 
+      transition: opacity 1s ease-out, height 1s ease-out;
+    }
+  }
+
+  .destination-image-parent div:hover {
+    .ArrowIcon {
+      display: none;
+    }
+    .destinationName {
+      opacity: 1;
+      height: auto;
+    }
+    flex: 5;
+    max-width: 100%;
+    background-position: center center;
+  }
+
+  .destination-image-parent div:not(:hover) {
+    flex: 1;
+    max-width: 30%;
+  }
+}

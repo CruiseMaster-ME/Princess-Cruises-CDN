@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.princesscruises-me.com</loc>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://www.princesscruises-me.com/all-destinations</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.princesscruises-me.com/all-ships</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.princesscruises-me.com/contact</loc>
+    <priority>0.5</priority>
+  </url>
+  <!-- Caribbean Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/caribbean-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Coral Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/coral-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Crown Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/crown-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Diamond Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/diamond-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Discovery Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/discovery-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Emerald Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/emerald-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Enchanted Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/enchanted-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Grand Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/grand-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Island Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/island-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Majestic Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/majestic-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Regal Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/regal-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Royal Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/royal-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Ruby Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/ruby-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Sapphire Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/sapphire-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Sky Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/sky-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Star Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/star-princess</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Sun Princess -->
+  <url>
+    <loc>https://www.princesscruises-me.com/ship-details/sun-princess</loc>
+    <priority>0.7</priority>
+  </url>
+</urlset>

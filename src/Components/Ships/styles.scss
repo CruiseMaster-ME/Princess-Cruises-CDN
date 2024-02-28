@@ -1,0 +1,37 @@
+@use "../../Config/variables.scss" as vars;
+.ship {
+  .ship-card {
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.185);
+    height: 250px;
+    cursor: pointer;
+  }
+  .ship-name {
+    letter-spacing: 2px;
+  }
+  .ship-details-text {
+    color: vars.$faded-black;
+    font-weight: 500;
+    text-align: justify;
+  }
+  .ship-image-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 16px;
+  }
+
+  .ship-image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 250px;
+  }
+  .ships-custom-divider {
+    background-color: rgba(255, 255, 255, 0.493);
+    height:6px;
+    width: 80%;
+  }
+}
